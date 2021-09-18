@@ -1,0 +1,328 @@
+/*start main rulz*/
+body{
+    background-color: rgb(255, 255, 255);
+    height: 4000px;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    
+    
+    
+  
+}
+* {
+    box-sizing: border-box;
+  }
+  .clearFix{clear: both;}
+  /*end main rulez*/
+
+/*start header*/
+.header .slider{
+    background-image: url("../images/Crisis-Code_Photo-Shunyu-Fan_Blue-1170x600.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    
+}
+
+.header .slider .intro{
+    
+    height: 600px;
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+
+}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 70px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding-bottom: 5px;
+}
+.header .slider .intro button{
+    background: none;
+    border: 2px solid #fff;
+    padding: 8px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+.header .slider .intro button:hover{
+    background-color: #fff ;
+    color: black;
+}
+.header .navbar{
+background-color: #252f31;
+color:#fff;
+overflow: hidden;
+display: flex;
+
+
+
+
+}
+.header .navbar h1{float: left;}
+
+.header .navbar h1 span{color: #35c371;}
+
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    float: right;
+      
+}
+.header .navbar ul li 
+{
+    float: left;
+    padding: 15px;
+}
+
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: transform .2s;
+    margin: 0 auto;
+    font-size: 20px;
+
+    
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+    color: #35c371;
+  } 
+.header .navbar ul li:hover {
+    
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    
+  }
+ 
+ 
+/*end header*/
+/*start feature*/
+.features{
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.features .feat{
+    width: 33.33333%;
+    float: left;
+    height: 150px;
+    background-color: feffffd;
+    padding: 15px;
+}
+.features .feat h2
+{
+    color: #575f5d;
+}
+.features .feat p{
+    color: #757474;
+    line-height: 1.5;
+}
+/*end features*/
+/*start about_me*/
+.about_me {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    
+    
+    margin:  20px;
+    
+    
+    
+}
+.about_me .image {
+    float: left;
+    width: 40%;
+    height: 400px;
+   
+    
+}
+.about_me .image img{
+    max-height: 100%;
+}
+.about_me .about {
+    float: left;
+    width: 60%;
+
+}
+.about_me .about h2{
+    margin: 33px 0px 20px 0px;
+    color: #2f3536;
+}
+.about_me .about > p{
+    margin: 0px 0px 16px 0px;
+    line-height: 1.5;
+    color: #888787;
+}
+    
+.about_me .about .hoppies{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.about_me .about .hoppies .content {
+        width: 50%;
+        min-height: 100px;
+        overflow: hidden;
+}
+
+.about_me .about .hoppies .content .icon{
+    float: left;
+    width: 10%;
+    height: 50px;
+}
+.about_me .about .hoppies .content .text{
+    width: 90%;
+    color: #888787;
+    
+}
+.about_me .about .hoppies .content .icon img{
+    max-width: 100%;
+
+}
+.about_me .about .hoppies .content .text h3{
+    margin-top: 5px;
+    margin-left: 50px;
+    
+    color: #2f3536;
+}
+.about_me .about .hoppies .content .text p{
+    
+    
+    margin-left: 50px;
+    margin-top: 0;
+    color: #888787;
+    
+}
+/*end about_me*/
+/*start my skills*/
+.my-skills {
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+.my-skills .skills{
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+}
+.my-skills .skills p{
+    line-height: 1.5;   
+    color: #515b5a;
+    
+    
+}
+.my-skills .skills h2{
+   color: #2f3536;
+}
+.my-skills .skills > p{
+    margin-bottom: 20px;
+}
+.my-skills .skills button{
+    background: none;
+    border: 2px solid #3fcd83;
+    padding: 8px;
+    font-size: 18px;
+    color: #3fcd83;
+    margin-top: 20px;
+}
+.my-skills .skills button:hover{
+    background-color: #3fcd83 ;
+    color: #fff;
+}
+.my-skills .prog{
+float: left;
+width: 50%;
+}
+
+.my-skills .prog .teq{
+    margin-bottom: 30px;
+}
+.my-skills .prog .teq h3{
+    color: #2f3536;   
+}
+.my-skills .prog .teq div{
+        background-color: #f2f2f2;
+        height: 25px;
+        
+    }
+.my-skills .prog .teq div span {
+        display: block;
+        background-color: #2dcc70;
+        padding: 5px;
+        color: white;
+        height: 25px;
+        text-align: right;
+        font-weight: bold;
+        
+    }
+    
+
+
+/*end my skills*/
+/*start resume*/
+.res{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.res h2{
+    
+    color: #2f3536;
+}
+.res p{
+    
+    color: #515b5a;
+    font-size: 20px;
+}
+.res button{
+    background: none;
+    border: 2px solid #3fcd83;
+    padding: 8px;
+    font-size: 18px;
+    color: #3fcd83;
+    margin-top: 20px;
+}
+.res button:hover{
+    background-color: #3fcd83 ;
+    color: #fff;
+}
+
+
+
+/*end resume*/
+/*start my edu*/
+.my-edu {
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px;
+}
+.my-edu .edu{
+    float: left;
+    width: 50%;
+}
+.my-edu .exp{
+float: left;
+width: 50%;
+}
+
+/*end my edu*/
+
+
